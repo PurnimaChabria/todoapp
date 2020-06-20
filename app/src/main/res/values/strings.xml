@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">todoapp</string>
+    <string name="textview">TextView</string>
+    <string name="name">Name</string>
     <array name="tasks">
         <item>Day1</item>
         <item>Day2</item>

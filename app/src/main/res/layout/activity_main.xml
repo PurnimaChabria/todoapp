@@ -7,6 +7,28 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/etTitle"
+            android:layout_width="8dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:hint="Label...."/>
+
+        <Button
+            android:id="@+id/btnNotify"
+            android:text="Schedule Reminder"
+            android:layout_width="8dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,13 +41,18 @@
         android:id="@+id/buttonadd"
         android:text="Add"
         android:layout_gravity="center"></Button>
+    <TextView
+        android:text="Long Press to delete the day"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextViewdeleteday"/>
 
-<ListView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:id="@+id/listview"
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    >
-</ListView>
+    </ListView>
 
 </LinearLayout>
